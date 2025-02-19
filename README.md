@@ -24,7 +24,12 @@ Follow these steps to set up and run the game on your system:
    git clone https://github.com/yourusername/casino-dice-game.git
    cd casino-dice-game
    ```
-
+```bash
+pip install -r requirements.txt
+```
+```bash
+python game.py
+```
 
 
 ## 🎮 How to Play
