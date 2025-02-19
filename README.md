@@ -21,14 +21,14 @@ Follow these steps to set up and run the game on your system:
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/casino-dice-game.git
-   cd casino-dice-game
+   git clone https://github.com/Ekeng-990/Casino-Dice-game-Python.git
+   cd Casino-Dice-game-Python
    ```
 ```bash
 pip install -r requirements.txt
 ```
 ```bash
-python game.py
+python DiceGameRTP.py
 ```
 
 
