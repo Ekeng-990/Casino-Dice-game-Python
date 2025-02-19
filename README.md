@@ -1,68 +1,31 @@
-Casino Dice Game Simulator
+# 🎲 Casino Dice Game Simulator 🎲  
 
-Overview
+A simple yet engaging casino dice game simulator built with Python and Tkinter. Players can place bets, guess the dice roll, and even enable auto-roll mode until their balance is depleted.
 
-Casino Dice Game Simulator is a Python-based gambling simulation game that allows players to bet on a dice roll. The game features an interactive GUI built with Tkinter, automatic rolling, and balance management.
+## 📌 Features  
+✅ Place bets and guess the dice roll (1-6)  
+✅ Animated dice rolling with smooth transitions  
+✅ Auto-roll feature with custom bet and dice guess options  
+✅ Balance management and deposit system  
+✅ Intuitive GUI with a casino-style theme  
 
-Features
+## 🛠️ Requirements  
+Make sure you have the following dependencies installed:  
+- Python 3.x  
+- Tkinter (built-in with Python)  
+- Pillow (PIL)  
+- Requests  
 
-🎲 Roll a dice and place bets
+## 🚀 Installation  
+Follow these steps to set up and run the game on your system:  
 
-💰 Manage balance with deposit option
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/casino-dice-game.git
+   cd casino-dice-game
 
-🔄 Auto Roll mode with configurable bet amount
+   ```bash
+   pip install -r requirements.txt
 
-🎨 Smooth UI and animated dice rolls
-
-🌐 Uses online dice images for visualization
-
-Requirements
-
-Python 3.x
-
-Tkinter (built-in with Python)
-
-PIL (Pillow library)
-
-Requests
-
-Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/casino-dice-game.git
-cd casino-dice-game
-
-Install dependencies:
-
-pip install pillow requests
-
-Run the game:
-
-python dice_game.py
-
-How to Play
-
-Set your bet amount.
-
-Guess the outcome of a dice roll (1-6).
-
-Click "Roll Dice" to play manually or "Auto Roll" for continuous rolling.
-
-Win money if your guess is correct!
-
-Auto Roll Feature
-
-Enter the bet amount per roll.
-
-Choose the dice number you want to bet on.
-
-The game will automatically roll until the balance runs out.
-
-License
-
-This project is open-source and available under the MIT License.
-
-Contributions
-
-Feel free to contribute! Open issues or submit pull requests to improve the game.
+```bash
+python game.py
